@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(input)
   input.collect do |word|
-    
+    "#{word.capitalize}!"
   end
 end
 
