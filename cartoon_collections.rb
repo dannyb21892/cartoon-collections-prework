@@ -1,6 +1,8 @@
 def roll_call_dwarves(dwarves)
+  x=1
   dwarves.each do |dwarf| 
-    puts dwarf
+    puts "#{x}. #{dwarf}"
+    x += 1
   end
 end
 
