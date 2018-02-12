@@ -2,8 +2,8 @@ def roll_call_dwarves(dwarves)
   dwarves.each {|dwarf| puts dwarf}
 end
 
-def summon_captain_planet(input)
-  input.collect do |word|
+def summon_captain_planet(calls)
+  calls.collect do |word|
     "#{word.capitalize}!"
   end
 end
